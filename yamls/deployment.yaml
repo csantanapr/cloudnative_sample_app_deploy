@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: cloudnativesampleapp
-        image: docker.io/csantanapr/cloudnative_sample_app:latest
+        image: docker.io/csantanapr/cloudnative_sample_app:169daab
         imagePullPolicy: IfNotPresent
         readinessProbe:
           httpGet:
