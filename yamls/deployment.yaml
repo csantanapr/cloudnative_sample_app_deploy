@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: cloudnativesampleapp
-        image: image-registry.openshift-image-registry.svc:5000/bootcamp-cicd-carlos/cloudnative_sample_app:8d337dd
+        image: image-registry.openshift-image-registry.svc:5000/bootcamp-cicd-carlos/cloudnative_sample_app:afabe62
         imagePullPolicy: IfNotPresent
         readinessProbe:
           httpGet:
